@@ -27,10 +27,10 @@ export default async function Post({ params }: { params: { slug: string } }) {
           <div className="bg-gray-100/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-10">
             {/* Status bar */}
             <div className="h-6 text-xs px-4 flex justify-between items-center">
-              <span>9:41</span>
+              <span>13:37</span>
               <div className="flex items-center gap-1">
                 <span>5G</span>
-                <span>100%</span>
+                <span>96%</span>
               </div>
             </div>
 
@@ -41,11 +41,17 @@ export default async function Post({ params }: { params: { slug: string } }) {
                 <span>Back</span>
               </Link>
               <div className="flex-1 flex justify-center items-center gap-2">
-                <Avatar className="h-7 w-7">
-                  <AvatarImage src="/placeholder.svg" />
-                  <AvatarFallback>B</AvatarFallback>
-                </Avatar>
-                <span className="font-semibold">Einar</span>
+                <Link 
+                  href="https://www.linkedin.com/in/einar-michaelsen/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Avatar className="h-7 w-7 hover:opacity-80 transition-opacity">
+                    <AvatarImage src="/placeholder.svg" />
+                    <AvatarFallback>B</AvatarFallback>
+                  </Avatar>
+                </Link>
+                <span className="font-semibold">einar</span>
               </div>
               <Link 
                 href="https://cal.com/einar-michaelsen" 

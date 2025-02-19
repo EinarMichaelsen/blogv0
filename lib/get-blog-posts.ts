@@ -10,13 +10,13 @@ const posts: Post[] = [
     slug: "einar.blog",
     title: "hi i'm einar",
     date: "2025-02-19",
-    content: `welcome to my blog.
+    content: `welcome to my blog
 
-more to come.`,
+more to come`,
   },
   {
     slug: "einar.blog2",
-    title: "check our Circular",
+    title: "check out Circular",
     date: "2025-02-19",
     content: `Just go to getcircular.ai
 
