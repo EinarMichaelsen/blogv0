@@ -24,19 +24,7 @@ lmk what you think`,
   },
   {
     slug: "einar.blog2",
-    title: "just testing out adding more messages",
-    date: "2025-02-20",
-    content: `seems ok
-
-i think.
-
-just testing how it looks when i add a longer message to see if it wraps and if it looks ok
-
-now i'm just letting cursor write this for me.`,
-  },
-  {
-    slug: "einar.blog3",
-    title: "i'm just vibe coding",
+    title: "vibe coding",
     date: "2025-02-20",
     content: `how i made this blog
 
