@@ -19,9 +19,6 @@ export default async function Post({ params }: { params: { slug: string } }) {
   return (
     <BlogLayout>
       <div className="flex flex-col md:flex-row h-screen w-full">
-        <div className="hidden md:block w-80 flex-shrink-0">
-          <Sidebar posts={posts} currentSlug={params.slug} />
-        </div>
         <main className="flex-1 bg-white flex flex-col h-screen w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
           {/* iPhone-style header */}
           <div className="bg-gray-100/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-10">
