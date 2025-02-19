@@ -14,7 +14,7 @@ export default async function Home() {
           <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto">
             <MessageSquare className="w-8 h-8 text-blue-500" />
           </div>
-          <h1 className="text-xl font-semibold">Welcome to iMessage Blog</h1>
+          <h1 className="text-xl font-semibold">einar.blog</h1>
           <p className="text-gray-500">Select a conversation to start reading</p>
         </div>
       </main>
