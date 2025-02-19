@@ -22,10 +22,10 @@ export default async function Home() {
           <div className="bg-gray-100/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-10">
             {/* Status bar */}
             <div className="h-6 text-xs px-4 flex justify-between items-center">
-              <span>9:41</span>
+              <span>13:37</span>
               <div className="flex items-center gap-1">
                 <span>5G</span>
-                <span>100%</span>
+                <span>96%</span>
               </div>
             </div>
             {/* Navigation header */}
