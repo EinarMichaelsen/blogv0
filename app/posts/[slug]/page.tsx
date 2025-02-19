@@ -45,11 +45,16 @@ export default async function Post({ params }: { params: { slug: string } }) {
                   <AvatarImage src="/placeholder.svg" />
                   <AvatarFallback>B</AvatarFallback>
                 </Avatar>
-                <span className="font-semibold">Blog Post</span>
+                <span className="font-semibold">Einar</span>
               </div>
-              <button className="text-[#0B84FF]">
+              <Link 
+                href="https://cal.com/einar-michaelsen" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#0B84FF]"
+              >
                 <Video className="h-5 w-5" />
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -89,12 +94,22 @@ export default async function Post({ params }: { params: { slug: string } }) {
           {/* Message input area */}
           <div className="p-4 bg-gray-100/80 backdrop-blur-md border-t border-gray-200">
             <div className="flex items-center gap-2">
-              <button className="text-[#0B84FF]">
+              <Link 
+                href="https://www.instagram.com/einarm90"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#0B84FF]"
+              >
                 <Camera className="h-6 w-6" />
-              </button>
-              <button className="text-[#0B84FF]">
+              </Link>
+              <Link 
+                href="https://www.linkedin.com/in/einar-michaelsen/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#0B84FF]"
+              >
                 <AppWindow className="h-6 w-6" />
-              </button>
+              </Link>
               <div className="flex-1 bg-white rounded-full px-4 py-2 text-gray-400 border border-gray-200">iMessage</div>
               <button className="text-[#0B84FF]">
                 <Mic className="h-6 w-6" />
