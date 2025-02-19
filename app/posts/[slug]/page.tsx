@@ -103,7 +103,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
                 <Camera className="h-6 w-6" />
               </Link>
               <Link 
-                href="https://www.linkedin.com/in/einar-michaelsen/"
+                href="https://getcircular.ai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#0B84FF]"
