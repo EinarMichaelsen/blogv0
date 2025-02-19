@@ -3,6 +3,7 @@ import Sidebar from "../../../components/sidebar"
 import { getBlogPosts, getBlogPost } from "../../../lib/get-blog-posts"
 import { ChevronLeft, Video, Camera, AppWindow, Mic } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import Link from "next/link"
 
 export async function generateStaticParams() {
   const posts = await getBlogPosts()
@@ -17,7 +18,22 @@ export default async function Post({ params }: { params: { slug: string } }) {
 
   return (
     <BlogLayout>
-      <Sidebar posts={posts} currentSlug={params.slug} />
+      {/* Add mobile-only back button that shows at the top */}
+      <div className="md:hidden fixed top-0 left-0 z-20 p-4">
+        <Link 
+          href="/"
+          className="flex items-center text-[#0B84FF] bg-white/80 backdrop-blur-sm rounded-full px-3 py-2 shadow-sm"
+        >
+          <ChevronLeft className="h-5 w-5" />
+          <span>Back</span>
+        </Link>
+      </div>
+
+      {/* Hide sidebar on mobile */}
+      <div className="hidden md:block">
+        <Sidebar posts={posts} currentSlug={params.slug} />
+      </div>
+
       <main className="flex-1 bg-white flex flex-col h-screen max-w-lg mx-auto">
         {/* iPhone-style header */}
         <div className="bg-gray-100/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-10">

@@ -8,16 +8,20 @@ export default async function Home() {
 
   return (
     <BlogLayout>
-      <Sidebar posts={posts} />
-      <main className="flex-1 bg-white flex items-center justify-center">
-        <div className="text-center space-y-4">
-          <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto">
-            <MessageSquare className="w-8 h-8 text-blue-500" />
-          </div>
-          <h1 className="text-xl font-semibold">einar.blog</h1>
-          <p className="text-gray-500">Select a conversation to start reading</p>
+      <div className="flex flex-col md:flex-row h-screen">
+        <div className="md:block hidden">
+          <Sidebar posts={posts} />
         </div>
-      </main>
+        <main className="flex-1 bg-white flex items-center justify-center p-4">
+          <div className="text-center space-y-4">
+            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto">
+              <MessageSquare className="w-8 h-8 text-blue-500" />
+            </div>
+            <h1 className="text-xl md:text-2xl font-semibold">einar.blog</h1>
+            <p className="text-gray-500 text-sm md:text-base">Select a conversation to start reading</p>
+          </div>
+        </main>
+      </div>
     </BlogLayout>
   )
 }
