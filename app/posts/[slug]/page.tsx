@@ -18,23 +18,12 @@ export default async function Post({ params }: { params: { slug: string } }) {
 
   return (
     <BlogLayout>
-      {/* Add mobile-only back button that shows at the top */}
-      <div className="md:hidden fixed top-0 left-0 z-20 p-4">
-        <Link 
-          href="/"
-          className="flex items-center text-[#0B84FF] bg-white/80 backdrop-blur-sm rounded-full px-3 py-2 shadow-sm"
-        >
-          <ChevronLeft className="h-5 w-5" />
-          <span>Back</span>
-        </Link>
-      </div>
-
       {/* Hide sidebar on mobile */}
       <div className="hidden md:block">
         <Sidebar posts={posts} currentSlug={params.slug} />
       </div>
 
-      <main className="flex-1 bg-white flex flex-col h-screen max-w-lg mx-auto">
+      <main className="flex-1 bg-white flex flex-col h-screen">
         {/* iPhone-style header */}
         <div className="bg-gray-100/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-10">
           {/* Status bar */}
@@ -48,10 +37,10 @@ export default async function Post({ params }: { params: { slug: string } }) {
 
           {/* Navigation header */}
           <div className="flex items-center px-4 h-11">
-            <button className="flex items-center text-[#0B84FF]">
+            <Link href="/" className="flex items-center text-[#0B84FF]">
               <ChevronLeft className="h-5 w-5" />
               <span>Back</span>
-            </button>
+            </Link>
             <div className="flex-1 flex justify-center items-center gap-2">
               <Avatar className="h-7 w-7">
                 <AvatarImage src="/placeholder.svg" />
