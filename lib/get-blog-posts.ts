@@ -18,7 +18,7 @@ more to come`,
     slug: "einar.blog2",
     title: "check out Circular",
     date: "2025-02-19",
-    content: `Just go to getcircular.ai
+    content: `go to www.getcircular.ai
 
 lmk what you think`,
   },
