@@ -7,22 +7,20 @@ export interface Post {
 
 const posts: Post[] = [
   {
-    slug: "blog-1",
-    title: "Test blog one",
+    slug: "einar.blog",
+    title: "hi i'm einar",
     date: "2025-02-19",
-    content: `Good day! This is a test blog post.
+    content: `welcome to my blog.
 
-Expect more posts soon!`,
+more to come.`,
   },
   {
-    slug: "hello-world",
-    title: "Quick Chat",
+    slug: "einar.blog2",
+    title: "check our Circular",
     date: "2025-02-19",
-    content: `yo!
+    content: `Just go to getcircular.ai
 
-Just testing this out.
-
-Check out getcircular.ai`,
+lmk what you think`,
   },
 ]
 

@@ -11,10 +11,13 @@ export default async function Home() {
   return (
     <BlogLayout>
       <div className="flex flex-col md:flex-row h-screen">
-        <div className="hidden md:block">
-          <Sidebar posts={posts} />
-        </div>
-        <main className="flex-1 bg-white flex flex-col h-screen">
+        {/* Only show sidebar when a post is selected */}
+        {false && (
+          <div className="hidden md:block w-80 flex-shrink-0">
+            <Sidebar posts={posts} />
+          </div>
+        )}
+        <main className="flex-1 bg-white flex flex-col h-screen md:max-w-xl mx-auto w-full">
           {/* iPhone-style header */}
           <div className="bg-gray-100/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-10">
             {/* Status bar */}
