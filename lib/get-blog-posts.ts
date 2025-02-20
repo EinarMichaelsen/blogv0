@@ -200,6 +200,52 @@ And it has to create value
 ideally a lot of value
  `
   }
+  ,
+  {
+    slug: "resale-market",
+    title: "why the resale market is exciting",
+    date: "2025-02-24",
+    content: `let's do a quick intro to resale
+
+with Circular, we aim for global impact.
+
+we target the underserved brick-and-mortar part of resale
+
+surprisingly, this accounts for more than 50% of the global resale market
+
+even though online gets most of the fuzz
+
+so, why is the resale market exciting? and why now?
+
+a perfect storm of regulatory, consumer, and technological shifts is propelling the secondhand market into a transformative wave
+
+𐄷 regulations 𐄷 <br />
+Policies like Extended Producer Responsibility (EPR) and Digital Product Passports (DPP) require producers to manage their products throughout their lifecycle and make data accessible
+
+🛍️ consumer trends 🛍️ <br />
+secondhand shopping has gone mainstream, driven by eco-conscious consumers
+
+🏠 retail trends 🏠 <br />
+brick and mortar is coming back. Even D2C companies are establishing physical presence to create meaningful customer relationships and shopping experiences
+
+🤖 technology 🤖 <br />
+advancements in AI helps us automating manual and time consuming tasks tasks, making circular retail scalable
+
+⏱️ internal efficiency gains ⏱️  <br />
+AI also reduces costs and speeds up the development of scalable B2B SaaS solutions
+
+Europe has more than 75,000 secondhand stores
+
+contributing to a global resale market worth $265 billion
+
+this is a market that is growing at 12% CAGR
+
+offline resale accounts for over half of the market
+
+we are positioning Circular to be the winner in this market
+
+ `
+  }
 ]
 
 export async function getBlogPosts(): Promise<Post[]> {
