@@ -8,11 +8,11 @@ export interface Post {
 const posts: Post[] = [
   {
     slug: "einar.blog",
-    title: "hi i'm einar",
+    title: "hei i'm einar",
     date: "2025-02-18",
     content: `welcome to my blog
 
-i'm currently a co-founder in circular, an ai-powered resale platform
+i'm currently co-founder & ceo in circular, an ai-powered resale platform
 
 previously co-founded cirkulær, a second-hand chain with a yearly turnover of €1M (this is where the founder-problem-fit for circular originated from)
 
@@ -21,11 +21,9 @@ i built a nordic center of excellence for automation & ai in santander  <br /> <
 i led ai & emerging tech services in kpmg <br /> <br />
 i did business development and product management in coop & brødrene dahl where i worked on phygital self service solutions, unmanned stores, ecom and mobile apps.
 
-i like to create, build and write
+i like to create, make, build and write
 
-click my picture in the top to find my linkedin account. 
-
-or click the camera button in bottom to find my insta
+click my picture in the top to find my linkedin account
 `
 ,
   },
@@ -148,6 +146,59 @@ we value clear expectations and communication. Information should be transparent
 
 ❤️ empathy ❤️ <br />
 we listen to our customers' challenges. Our most important task is always to create value for them`
+  },
+  {
+    slug: "priorities",
+    title: "focus and priorities",
+    date: "2025-02-23",
+    content: `let's call this blog part 3 of how we built a b2b saas in 81 days
+
+To maintain momentum and progress, two things are essential
+
+🎯 Focus
+
+🫡 Prioritization
+
+Focus is constantly challenged by new ideas and opportunities.
+
+🍏 Golden apples, as Christina Wodtke calls them in Radical Focus. Tempting distractions. Short-term opportunities that can pull us away from our long-term goals. Seemingly attractive options that slow down progress.
+
+Being good at prioritization and maintaining focus has been one of the biggest challenges in building Circular
+
+So, how do we work to stay focused?
+
+OKRs and weekly priorities
+
+Monthly OKRs:
+
+⭐ One objective to set the direction.
+
+✅ Three key results to measure whether we have achieved our objective.
+
+Weekly priorities:
+
+📋 Each week, we create a list of up to five priorities.
+
+Only priorities that move the needle on our key results make the list.
+
+This means we have to leave exciting ideas and opportunities on the table—no matter how tempting they are.
+
+This is the hardest part for me. There are so many exciting things we could do. So many ideas and opportunities. But we (unfortunately) can't do everything at once.
+
+One model for prioritization is the New Opportunity Test
+
+If it doesn't fit within our priorities for the week
+
+it's a no.
+
+If it's not a hell yes
+
+it's a no.
+
+And it has to create value
+
+ideally a lot of value
+ `
   }
 ]
 
