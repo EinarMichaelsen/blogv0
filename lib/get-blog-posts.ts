@@ -106,18 +106,17 @@ this is the AI stack <br />
 ✨ Coding assistant: OpenAI o1 <br />
 👾 Rapid prototyping: Databutton
 
-this is the tech foundating we build upon to build at speed
-`,
-
-{
-  slug: "culture",
-  title: "culture and values in circular💕",
-  date: "2025-02-22",
-  content: `this is kinda the part 2 of "how to build a b2b saas in 81 days"
+this is the tech foundating we build upon to build at speed`
+  },
+  {
+    slug: "culture",
+    title: "culture and values in circular💕",
+    date: "2025-02-22",
+    content: `this is kinda the part 2 of "how to build a b2b saas in 81 days"
 
 A bit more abstract than the tech stack, but just as important for delivering well and fast.
 
-“You can just do things.”
+"You can just do things."
 
 That is what we try to live by at Circular.
 
@@ -146,11 +145,8 @@ We take risks. If nothing ever fails, we're not innovating enough
 We value clear expectations and communication. Information should be transparent and accessible
 
 ❤️ Empathy <br />
-We listen to our customers' challenges. Our most important task is always to create value for them
-,
-},
-
-  },
+We listen to our customers' challenges. Our most important task is always to create value for them`
+  }
 ]
 
 export async function getBlogPosts(): Promise<Post[]> {
