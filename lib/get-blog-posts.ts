@@ -36,6 +36,72 @@ click my picture in the top to find my linkedin account
 interested in learning more? click the facetime icon to book a meeting with me`,
   },
   {
+    slug: "circular-background",
+    title: "here's a short intro to Circular",
+    date: "2025-02-19",
+    content: `and why we will win
+
+Running a second-hand business should be about delighting your customers, finding hidden treasures, and building a community
+
+not wrestling with outdated software or complicated processes. 
+
+that's where Circular comes in. 
+
+built by resellers, for resellers
+
+our platform streamlines everything from inventory management to pricing to seller management
+
+Circular is the B2B SaaS for resale, making operations easy, efficient, and profitable through AI and automation. 
+
+Customers anticipate a +400% ROI. Several customers have already signed up, evaluating Circular as superior to incumbent competitors.
+
+Our goal is clear: Circular will be the market leader for in-store resale
+
+why we will win?
+
+AGENCY
+
+we are a team of doers
+
+we are action-biased, and we operate at high speed 
+
+we built a world-class product with paying customers in 81 days
+
+while we built product, we also built a waitlist of 17 stores
+
+SALES
+
+we sell
+
+we did our first sales meeting before we had a product
+
+we sold a vision in September
+
+we started building in October
+
+EXPERIENCE
+
+we are serial founders that know how to build and scale companies.
+
+in the team we have
+
+first-hand experience from the resale industry
+
+expertise in building own distribution and reach without spending wildly <br />
+Proof: 20K followers across SoMe (and Norway's most followed second hand store on LinkedIn) <br />
+a newsletter with 1,8K followers, a website with ~200K organic impressions on Google the last 16 months
+
+Experience from growing a scale-up from 10 to 70 employees
+
+Experience from founding 5 companies
+
+We have experience from management consulting, technology, AI & automation, retail, sustainability, innovation and strategy
+
+Corporate experience from companies such as EY, KPMG, Coop, IBM, Saint-Gobain, Sprint Consulting and Santander.
+
+Together, we're a well-rounded team with high agency that can sell, build great products and attract top talent`,
+  },
+  {
     slug: "vibe-coding",
     title: "vibe coding",
     date: "2025-02-20",
@@ -211,7 +277,7 @@ with Circular, we aim for global impact.
 
 we target the underserved brick-and-mortar part of resale
 
-surprisingly, this accounts for more than 50% of the global resale market
+surprisingly, in-store (offline) resale accounts for more than 50% of the global resale market
 
 even though online gets most of the fuzz
 
@@ -242,9 +308,7 @@ this is a market that is growing at 12% CAGR
 
 offline resale accounts for over half of the market
 
-we are positioning Circular to be the winner in this market
-
- `
+we are positioning Circular to be the winner in this market`
   }
 ]
 
