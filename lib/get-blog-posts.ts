@@ -24,20 +24,41 @@ i did business development and product management in coop & brødrene dahl where
 i like to create, make, build and write
 
 click my picture in the top to find my linkedin account
+
+click the facetime icon to book a meeting
 `
 ,
   },
   {
-    slug: "check-out-circular",
-    title: "check out circular🚀",
-    date: "2025-02-19",
-    content: `go to <a href="https://getcircular.ai" target="_blank" rel="noopener noreferrer">getcircular.ai</a>
+    slug: "vibe-coding",
+    title: "vibe coding",
+    date: "2025-02-20",
+    content: `how i made this blog
 
-interested in learning more? click the facetime icon to book a meeting with me`,
+    doing vibe coding only
+
+i started out with a prompt in v0: i want to create a iMessage-like blog
+
+then i added: the blog should be written in blue bubbles, like in iMessage
+
+and pasted an image saying that it should have a similar feel to it
+
+that was enough for v0 to start
+
+then i downloaded all the files that v0 generated. created a github repo, copy-pasted the files into the repo and opened Cursor and github desktop
+
+i had to ask cursor to fix the code for me a couple of times
+
+tab tab tab. accept all
+
+commit to main
+
+voila
+`,
   },
   {
     slug: "circular-background",
-    title: "intro to Circular",
+    title: "intro to Circular🚀",
     date: "2025-02-19",
     content: `and why we will win
 
@@ -45,7 +66,7 @@ Running a second-hand business should be about delighting your customers, findin
 
 not wrestling with outdated software or complicated processes. 
 
-that's where Circular comes in. 
+that's where <a href="https://getcircular.ai" target="_blank" rel="noopener noreferrer">Circular</a> comes in. 
 
 built by resellers, for resellers
 
@@ -100,33 +121,6 @@ We have experience from management consulting, technology, AI & automation, reta
 Corporate experience from companies such as EY, KPMG, Coop, IBM, Saint-Gobain, Sprint Consulting and Santander.
 
 Together, we're a well-rounded team with high agency that can sell, build great products and attract top talent`,
-  },
-  {
-    slug: "vibe-coding",
-    title: "vibe coding",
-    date: "2025-02-20",
-    content: `how i made this blog
-
-    doing vibe coding only
-
-i started out with a prompt in v0: i want to create a iMessage-like blog
-
-then i added: the blog should be written in blue bubbles, like in iMessage
-
-and pasted an image saying that it should have a similar feel to it
-
-that was enough for v0 to start
-
-then i downloaded all the files that v0 generated. created a github repo, copy-pasted the files into the repo and opened Cursor and github desktop
-
-i had to ask cursor to fix the code for me a couple of times
-
-tab tab tab. accept all
-
-commit to main
-
-voila
-`,
   },
   {
     slug: "tech-stack",
