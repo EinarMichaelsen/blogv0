@@ -37,7 +37,7 @@ interested in learning more? click the facetime icon to book a meeting with me`,
   },
   {
     slug: "circular-background",
-    title: "here's a short intro to Circular",
+    title: "intro to Circular",
     date: "2025-02-19",
     content: `and why we will win
 
@@ -176,7 +176,7 @@ this is the tech foundating we build upon to build at speed`
   },
   {
     slug: "culture",
-    title: "culture and values in circular💕",
+    title: "culture and values",
     date: "2025-02-22",
     content: `this is kinda the part 2 of "how we built a b2b saas in 81 days"
 
@@ -269,9 +269,9 @@ ideally a lot of value
   ,
   {
     slug: "resale-market",
-    title: "why the resale market is exciting",
+    title: "the resale market",
     date: "2025-02-24",
-    content: `let's do a quick intro to resale
+    content: `let explore why resale is exciting
 
 with Circular, we aim for global impact.
 
