@@ -16,16 +16,20 @@ i'm currently a co-founder in circular, an ai-powered resale platform
 
 previously co-founded cirkulær, a second-hand chain with a yearly turnover of €1M (this is where the founder-problem-fit for circular originated from)
 
-i have worked within ai and automation for almost a decade <br />
-i built a nordic center of excellence for automation & ai in santander  <br />
-i led ai & emerging tech services in kpmg <br />
+i have worked within ai and automation for almost a decade <br /> <br />
+i built a nordic center of excellence for automation & ai in santander  <br /> <br />
+i led ai & emerging tech services in kpmg <br /> <br />
 i did business development and product management in coop & brødrene dahl where i worked on phygital self service solutions, unmanned stores, ecom and mobile apps.
 
 i like to create, build and write
 
 i like people. 
 
-click the avatar in the top to find my linkedin account. or click the camera button in bottom to find my insta
+click my picture in the top to find my linkedin account. 
+
+or click the camera button in bottom to find my insta
+
+snakkes!
 `
 ,
   },
@@ -82,19 +86,19 @@ everything is serverless and as-a-service
 
 and we're utilizing good, flexible, secure and future proof frameworks
 
-This is our stack <br />
-🔮 Framework: Next js <br />
-⚡️ Database: Supabase <br />
-🔐 Auth: Supabase <br />
-🚩 State management: TanStack <br />
+this is our stack <br />
+🔮 framework: Next js <br />
+⚡️ database: Supabase <br />
+🔐 auth: Supabase <br />
+🚩 state management: TanStack <br />
 📋 ORM: Drizzle <br />
-📧 Emails: Resend <br />
-💻 UI: Shadcn <br />
-✨ AI: OpenAI + Gemini <br />
-👨🏻‍🎨 Design: Figma <br />
-⚫️ Backlog: Linear <br />
-🛰️ Hosting: Vercel <br />
-💶 Payments: Stripe
+📧 emails: Resend <br />
+💻 ui: Shadcn <br />
+✨ ai: OpenAI + Gemini <br />
+👨🏻‍🎨 design: Figma <br />
+⚫️ backlog: Linear <br />
+🛰️ hosting: Vercel <br />
+💶 payments: Stripe
 
 to build fast without burning cash, we also used some different AI tools
 
@@ -112,40 +116,40 @@ this is the tech foundating we build upon to build at speed`
     slug: "culture",
     title: "culture and values in circular💕",
     date: "2025-02-22",
-    content: `this is kinda the part 2 of "how to build a b2b saas in 81 days"
+    content: `this is kinda the part 2 of "how we built a b2b saas in 81 days"
 
-A bit more abstract than the tech stack, but just as important for delivering well and fast.
+a bit more abstract than the tech stack, but just as important for delivering on quality and speed
 
-"You can just do things."
+you can just do things
 
-That is what we try to live by at Circular.
+^that is what we try to live by at Circular
 
-It's very simple, yet incredibly difficult.
+it's very simple, yet incredibly difficult
 
-An excessive focus on perfection is often the biggest obstacle to actually getting things done.
+an excessive focus on perfection is often the biggest obstacle to actually getting things done
 
-At Circular, we have an action bias. <br />
-We do <br />
-We deliver <br /> 
-We fail <br />
-We learn <br />
-We improve
+at Circular we have a bias towards action <br />
+⚡️ we do <br />
+⚡️ we deliver <br /> 
+⚡️ we fail <br />
+⚡️ we learn <br />
+⚡️ we improve
 
-That allows us to move fast and build great products—products that keep getting better and better
+that allows us to move fast and build great products—products that keep getting better and better
 
-These are the values at Circular:
+these are the values at Circular
 
-🛠️ Execution <br />
-We believe in action. We have a strong action bias. We move fast, fail quickly, learn, and iterate
+🛠️ execution 🛠️ <br />
+we believe in action. We have a strong action bias. We move fast, fail quickly, learn, and iterate
 
-⚠️ Risk <br />
-We take risks. If nothing ever fails, we're not innovating enough
+⚠️ risk ⚠️ <br />
+we take risks. If nothing ever fails, we're not innovating enough
 
-📣 Clarity <br />
-We value clear expectations and communication. Information should be transparent and accessible
+📣 clarity 📣 <br />
+we value clear expectations and communication. Information should be transparent and accessible
 
-❤️ Empathy <br />
-We listen to our customers' challenges. Our most important task is always to create value for them`
+❤️ empathy ❤️ <br />
+we listen to our customers' challenges. Our most important task is always to create value for them`
   }
 ]
 
