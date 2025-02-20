@@ -108,6 +108,48 @@ this is the AI stack <br />
 
 this is the tech foundating we build upon to build at speed
 `,
+
+{
+  slug: "culture",
+  title: "culture and values in circular💕",
+  date: "2025-02-22",
+  content: `this is kinda the part 2 of "how to build a b2b saas in 81 days"
+
+A bit more abstract than the tech stack, but just as important for delivering well and fast.
+
+“You can just do things.”
+
+That is what we try to live by at Circular.
+
+It's very simple, yet incredibly difficult.
+
+An excessive focus on perfection is often the biggest obstacle to actually getting things done.
+
+At Circular, we have an action bias. <br />
+We do <br />
+We deliver <br /> 
+We fail <br />
+We learn <br />
+We improve
+
+That allows us to move fast and build great products—products that keep getting better and better
+
+These are the values at Circular:
+
+🛠️ Execution <br />
+We believe in action. We have a strong action bias. We move fast, fail quickly, learn, and iterate
+
+⚠️ Risk <br />
+We take risks. If nothing ever fails, we're not innovating enough
+
+📣 Clarity <br />
+We value clear expectations and communication. Information should be transparent and accessible
+
+❤️ Empathy <br />
+We listen to our customers' challenges. Our most important task is always to create value for them
+,
+},
+
   },
 ]
 
