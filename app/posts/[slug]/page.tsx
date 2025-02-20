@@ -5,6 +5,10 @@ import { ChevronLeft, Video, Camera, AppWindow, Mic } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import Link from "next/link"
 
+function createMarkup(content: string) {
+  return { __html: content };
+}
+
 export async function generateStaticParams() {
   const posts = await getBlogPosts()
   return posts.map((post) => ({
@@ -84,7 +88,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
                           filter: "drop-shadow(0 1px 1px rgba(0,0,0,0.05))",
                         }}
                       >
-                        <p>{paragraph}</p>
+                        <p dangerouslySetInnerHTML={createMarkup(paragraph)} className="[&_a]:underline [&_a]:text-white" />
                       </div>
                     </div>
                   ),

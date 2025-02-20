@@ -10,20 +10,31 @@ const posts: Post[] = [
     slug: "einar.blog",
     title: "hi i'm einar",
     date: "2025-02-18",
-    content: `welcome to my blog
+    content: `here's a short introduction
 
-more to come`,
+i'm currently a co-founder in circular, an ai-powered resale platform
+
+previously co-founded cirkulær, a second-hand chain with a yearly turnover of €1M (this is where the founder-problem-fit for circular originated from)
+
+my background: i have worked within ai and automation for almost a decade
+
+>built a nordic center of excellence for automation & ai in santander
+
+>led ai & emerging tech services in kpmg
+
+>did business development and product management in coop & brødrene dahl. worked on phygital self service solutions, unmanned stores, ecom and mobile apps.`
+,
   },
   {
-    slug: "einar.blog1",
-    title: "check out Circular",
+    slug: "check-out-circular",
+    title: "check out circular🚀",
     date: "2025-02-19",
-    content: `go to www.getcircular.ai
+    content: `go to <a href="https://getcircular.ai" target="_blank" rel="noopener noreferrer">getcircular.ai</a>
 
-lmk what you think`,
+interested in learning more? click the facetime icon to book a meeting with me`,
   },
   {
-    slug: "einar.blog2",
+    slug: "vibe-coding",
     title: "vibe coding",
     date: "2025-02-20",
     content: `how i made this blog
@@ -45,6 +56,52 @@ tab tab tab. accept all
 commit to main
 
 voila
+`,
+  },
+  {
+    slug: "tech-stack",
+    title: "we built a b2b saas in 81 days",
+    date: "2025-02-21",
+    content: `this was our stack
+
+we started building circular october 11th 2024
+
+we had go-live with our first paying customer december 31th 
+
+how is that possible?
+
+let's start with the tech stuff
+
+we did a concious choice of not spending any time setting up our own infra
+
+everything is serverless and as-a-service
+
+and we're utilizing good, flexible, secure and future proof frameworks.
+
+This is our stack
+🔮 Framework: Next js
+⚡️ Database: Supabase
+🔐 Auth: Supabase
+🚩 State management: TanStack
+📋 ORM: Drizzle
+📧 Emails: Resend
+💻 UI: Shadcn
+✨ AI: OpenAI + Gemini
+👨🏻‍🎨 Design: Figma
+⚫️ Backlog: Linear
+🛰️ Hosting: Vercel
+💶 Payments: Stripe
+
+to build fast without burning cash, we also used some different AI tools.
+That supercharges the development speed. Like having a large team of offshore devs at your fingertips
+
+this is the AI stack
+✔️ Generative UI: v0
+▶️ IDE: Cursor
+✨ Coding assistant: OpenAI o1
+👾 Rapid prototyping: Databutton
+
+this is the tech foundating we build upon to build at speed
 `,
   },
 ]
