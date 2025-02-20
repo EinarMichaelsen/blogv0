@@ -76,29 +76,30 @@ we did a concious choice of not spending any time setting up our own infra
 
 everything is serverless and as-a-service
 
-and we're utilizing good, flexible, secure and future proof frameworks.
+and we're utilizing good, flexible, secure and future proof frameworks
 
-This is our stack
-🔮 Framework: Next js
-⚡️ Database: Supabase
-🔐 Auth: Supabase
-🚩 State management: TanStack
-📋 ORM: Drizzle
-📧 Emails: Resend
-💻 UI: Shadcn
-✨ AI: OpenAI + Gemini
-👨🏻‍🎨 Design: Figma
-⚫️ Backlog: Linear
-🛰️ Hosting: Vercel
+This is our stack <br />
+🔮 Framework: Next js <br />
+⚡️ Database: Supabase <br />
+🔐 Auth: Supabase <br />
+🚩 State management: TanStack <br />
+📋 ORM: Drizzle <br />
+📧 Emails: Resend <br />
+💻 UI: Shadcn <br />
+✨ AI: OpenAI + Gemini <br />
+👨🏻‍🎨 Design: Figma <br />
+⚫️ Backlog: Linear <br />
+🛰️ Hosting: Vercel <br />
 💶 Payments: Stripe
 
-to build fast without burning cash, we also used some different AI tools.
-That supercharges the development speed. Like having a large team of offshore devs at your fingertips
+to build fast without burning cash, we also used some different AI tools
 
-this is the AI stack
-✔️ Generative UI: v0
-▶️ IDE: Cursor
-✨ Coding assistant: OpenAI o1
+that supercharges the development speed. Like having a large team of offshore devs at your fingertips
+
+this is the AI stack <br />
+✔️ Generative UI: v0 <br />
+▶️ IDE: Cursor <br />
+✨ Coding assistant: OpenAI o1 <br />
 👾 Rapid prototyping: Databutton
 
 this is the tech foundating we build upon to build at speed

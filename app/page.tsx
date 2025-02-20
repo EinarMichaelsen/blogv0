@@ -5,6 +5,10 @@ import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
+function stripHtml(html: string) {
+  return html.replace(/<[^>]*>/g, '');
+}
+
 export default async function Home() {
   const posts = await getBlogPosts()
 
@@ -53,7 +57,9 @@ export default async function Home() {
                         <h2 className="text-base font-semibold truncate">{post.title}</h2>
                         <span className="text-xs text-gray-500 ml-2">{post.date}</span>
                       </div>
-                      <p className="text-sm text-gray-500 truncate">{post.content.split('\n')[0]}</p>
+                      <p className="text-sm text-gray-500 truncate">
+                        {stripHtml(post.content.split('\n')[0])}
+                      </p>
                     </div>
                     <ChevronRight className="h-5 w-5 text-gray-400 ml-2" />
                   </Link>
