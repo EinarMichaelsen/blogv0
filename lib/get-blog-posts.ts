@@ -23,13 +23,9 @@ i did business development and product management in coop & brødrene dahl where
 
 i like to create, build and write
 
-i like people. 
-
 click my picture in the top to find my linkedin account. 
 
 or click the camera button in bottom to find my insta
-
-snakkes!
 `
 ,
   },
@@ -46,6 +42,8 @@ interested in learning more? click the facetime icon to book a meeting with me`,
     title: "vibe coding",
     date: "2025-02-20",
     content: `how i made this blog
+
+    doing vibe coding only
 
 i started out with a prompt in v0: i want to create a iMessage-like blog
 
