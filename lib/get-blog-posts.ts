@@ -16,10 +16,17 @@ i'm currently a co-founder in circular, an ai-powered resale platform
 
 previously co-founded cirkulær, a second-hand chain with a yearly turnover of €1M (this is where the founder-problem-fit for circular originated from)
 
-my background: i have worked within ai and automation for almost a decade <br />
+i have worked within ai and automation for almost a decade <br />
 i built a nordic center of excellence for automation & ai in santander  <br />
 i led ai & emerging tech services in kpmg <br />
-i did business development and product management in coop & brødrene dahl. worked on phygital self service solutions, unmanned stores, ecom and mobile apps.`
+i did business development and product management in coop & brødrene dahl where i worked on phygital self service solutions, unmanned stores, ecom and mobile apps.
+
+i like to create, build and write
+
+i like people. 
+
+click the avatar in the top to find my linkedin account. or click the camera button in bottom to find my insta
+`
 ,
   },
   {
