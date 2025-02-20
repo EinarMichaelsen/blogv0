@@ -10,19 +10,16 @@ const posts: Post[] = [
     slug: "einar.blog",
     title: "hi i'm einar",
     date: "2025-02-18",
-    content: `here's a short introduction
+    content: `welcome to my blog
 
 i'm currently a co-founder in circular, an ai-powered resale platform
 
 previously co-founded cirkulær, a second-hand chain with a yearly turnover of €1M (this is where the founder-problem-fit for circular originated from)
 
-my background: i have worked within ai and automation for almost a decade
-
->built a nordic center of excellence for automation & ai in santander
-
->led ai & emerging tech services in kpmg
-
->did business development and product management in coop & brødrene dahl. worked on phygital self service solutions, unmanned stores, ecom and mobile apps.`
+my background: i have worked within ai and automation for almost a decade <br />
+i built a nordic center of excellence for automation & ai in santander  <br />
+i led ai & emerging tech services in kpmg <br />
+i did business development and product management in coop & brødrene dahl. worked on phygital self service solutions, unmanned stores, ecom and mobile apps.`
 ,
   },
   {
@@ -62,7 +59,7 @@ voila
     slug: "tech-stack",
     title: "we built a b2b saas in 81 days",
     date: "2025-02-21",
-    content: `this was our stack
+    content: `this is how we did it (part 1)
 
 we started building circular october 11th 2024
 
