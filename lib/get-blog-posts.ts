@@ -282,7 +282,7 @@ we are positioning Circular to be the winner in this market`
   {
     slug: "vibe-coding",
     title: "vibe coding",
-    date: "2025-02-20",
+    date: "2025-02-25",
     content: `how i made this blog
 
     vibe coding only
