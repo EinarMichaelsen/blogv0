@@ -26,6 +26,8 @@ i like to create, make, build and write
 click my picture in the top to find my linkedin account
 
 click the facetime icon to book a meeting
+
+connect and say hi👋🏼
 `
 ,
   },
@@ -283,7 +285,7 @@ we are positioning Circular to be the winner in this market`
     date: "2025-02-20",
     content: `how i made this blog
 
-    doing vibe coding only
+    vibe coding only
 
 i started out with a prompt in v0: i want to create a iMessage-like blog
 
