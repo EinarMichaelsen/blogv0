@@ -30,33 +30,6 @@ click the facetime icon to book a meeting
 ,
   },
   {
-    slug: "vibe-coding",
-    title: "vibe coding",
-    date: "2025-02-20",
-    content: `how i made this blog
-
-    doing vibe coding only
-
-i started out with a prompt in v0: i want to create a iMessage-like blog
-
-then i added: the blog should be written in blue bubbles, like in iMessage
-
-and pasted an image saying that it should have a similar feel to it
-
-that was enough for v0 to start
-
-then i downloaded all the files that v0 generated. created a github repo, copy-pasted the files into the repo and opened Cursor and github desktop
-
-i had to ask cursor to fix the code for me a couple of times
-
-tab tab tab. accept all
-
-commit to main
-
-voila
-`,
-  },
-  {
     slug: "circular-background",
     title: "intro to Circular🚀",
     date: "2025-02-19",
@@ -303,6 +276,33 @@ this is a market that is growing at 12% CAGR
 offline resale accounts for over half of the market
 
 we are positioning Circular to be the winner in this market`
+  },
+  {
+    slug: "vibe-coding",
+    title: "vibe coding",
+    date: "2025-02-20",
+    content: `how i made this blog
+
+    doing vibe coding only
+
+i started out with a prompt in v0: i want to create a iMessage-like blog
+
+then i added: the blog should be written in blue bubbles, like in iMessage
+
+and pasted an image saying that it should have a similar feel to it
+
+that was enough for v0 to start
+
+then i downloaded all the files that v0 generated. created a github repo, copy-pasted the files into the repo and opened Cursor and github desktop
+
+i had to ask cursor to fix the code for me a couple of times
+
+tab tab tab. accept all
+
+commit to main
+
+voila
+`,
   }
 ]
 
