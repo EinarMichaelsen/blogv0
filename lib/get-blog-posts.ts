@@ -14,11 +14,11 @@ const posts: Post[] = [
 
 i'm currently co-founder & ceo in circular, an ai-powered resale platform
 
-previously co-founded cirkulær, a second-hand chain with a yearly turnover of €1M (this is where the founder-problem-fit for circular originated from)
+previously co-founded <a href="https://cirkulaer.love" target="_blank" rel="noopener noreferrer">cirkulær</a>, a second-hand chain with a yearly turnover of €1M (this is where the founder-problem-fit for circular originated from)
 
 i have worked within ai and automation for almost a decade <br /> <br />
-i built a nordic center of excellence for automation & ai in santander  <br /> <br />
-i led ai & emerging tech services in kpmg <br /> <br />
+i built the nordic center of excellence for automation & ai in santander  <br /> <br />
+i was head of ai & emerging tech in kpmg <br /> <br />
 i did business development and product management in coop & brødrene dahl where i worked on phygital self service solutions, unmanned stores, ecom and mobile apps.
 
 i like to create, make, build and write
