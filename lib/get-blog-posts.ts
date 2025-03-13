@@ -12,7 +12,7 @@ const posts: Post[] = [
     date: "2025-02-18",
     content: `welcome to my blog
 
-i'm currently co-founder & ceo in circular, an ai-powered resale platform
+i'm currently co-founder & ceo in <a href="https://getcircular.ai" target="_blank" rel="noopener noreferrer">circular</a>, an ai-powered resale platform
 
 previously co-founded <a href="https://cirkulaer.love" target="_blank" rel="noopener noreferrer">cirkulær</a>, a second-hand chain with a yearly turnover of €1M (this is where the founder-problem-fit for circular originated from)
 
@@ -69,11 +69,13 @@ SALES
 
 we sell
 
-we did our first sales meeting before we had a product
+we did our first sale before we had a product
 
-we sold a vision in September
+we sold a vision in sept
 
-we started building in October
+we started building in october
+
+we went live with our first paying customer in december
 
 EXPERIENCE
 
