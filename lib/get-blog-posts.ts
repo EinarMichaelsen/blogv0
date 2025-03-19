@@ -21,7 +21,7 @@ i built the nordic center of excellence for automation & ai in santander  <br />
 i was head of ai & emerging tech in kpmg <br /> <br />
 i did business development and product management in coop & brødrene dahl where i worked on phygital self service solutions, unmanned stores, ecom and mobile apps.
 
-i like to create, make, build and write
+i like to create, make, build and write 
 
 click my picture in the top to find my linkedin account
 
