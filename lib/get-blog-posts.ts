@@ -9,7 +9,7 @@ const posts: Post[] = [
   {
     slug: "einar.blog",
     title: "hei i'm einar",
-    date: "2025-02-18",
+    date: "2025-06-13",
     content: `welcome to my blog
 
 i'm currently co-founder & ceo in <a href="https://getcircular.ai" target="_blank" rel="noopener noreferrer">circular</a>, an ai-powered resale platform
@@ -21,7 +21,9 @@ i built the nordic center of excellence for automation & ai in santander  <br />
 i was head of ai & emerging tech in kpmg <br /> <br />
 i did business development and product management in coop & brødrene dahl where i worked on phygital self service solutions, unmanned stores, ecom and mobile apps.
 
-i like to create, make, build and write 
+i like to create, make, build and write
+
+here is something i made: <a href="https://lumowrite.com" target="_blank" rel="noopener noreferrer">lumowrite.com</a>
 
 click my picture in the top to find my linkedin account
 
@@ -280,6 +282,34 @@ this is a market that is growing at 12% CAGR
 offline resale accounts for over half of the market
 
 we are positioning Circular to be the winner in this market`
+  },
+  {
+    slug: "lumowrite",
+    title: "i made an app for writing",
+    date: "2025-06-02",
+    content: `so, i tested out a mac app for freewriting and wanted to do my own take on it on a web app
+
+set a timer for 15 minutes and just write. only feature i added was dark mode.
+
+after you are done writing, you can download the text if you want to. the text is only stored locally on your computer.
+
+unless you download it.
+
+also, if you want to, you can chat with an ai about your writing
+
+i think thats kindof a cool feature and a nice way to structure your ideas or thoughts.
+
+test it out here: <a href="https://lumowrite.com/" target="_blank" rel="noopener noreferrer">lumowrite.com</a>
+`,
+  },
+  {
+    slug: "ml-api",
+    title: "ml training writeup",
+    date: "2025-06-12",
+    content: `i made a write up of how i built, trained and deployed my first machine learning model.
+
+Read it here <a href="https://einar.blog/notes/">einar.blog/notes</a>
+`,
   },
   {
     slug: "vibe-coding",
