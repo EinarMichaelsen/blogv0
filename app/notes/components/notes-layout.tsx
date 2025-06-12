@@ -7,8 +7,10 @@ import { useMobile } from "../hooks/use-mobile"
 import { notes } from "../lib/data"
 import { NotesProvider } from "../lib/notes-context"
 import NoteContent from "./note-content"
+import { useRouter } from "next/navigation"
 
 export default function NotesLayout() {
+  const router = useRouter()
   const [searchQuery, setSearchQuery] = useState("")
   const [activeNoteId, setActiveNoteId] = useState<string | null>(null)
   const isMobile = useMobile()
@@ -35,6 +37,10 @@ export default function NotesLayout() {
     setActiveNoteId(null)
   }
 
+  const handleCloseClick = () => {
+    router.push("/")
+  }
+
   const activeNote = notes.find((note) => note.id === activeNoteId)
 
   return (
@@ -45,7 +51,11 @@ export default function NotesLayout() {
           <aside className={`sidebar ${isMobile && activeNoteId ? "hidden" : ""}`}>
             <div className="sidebar-header">
               <div className="window-controls">
-                <div className="window-button red" />
+                <button 
+                  className="window-button red" 
+                  onClick={handleCloseClick}
+                  aria-label="Close and return to home"
+                />
                 <div className="window-button yellow" />
                 <div className="window-button green" />
               </div>

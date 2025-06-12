@@ -5,7 +5,7 @@ import "./notes.css"
 
 export const metadata: Metadata = {
   title: "einar.blog | Notes",
-  description: "Apple Notes inspired blog",
+  description: "this is where i keep my longer notes",
   generator: 'v0.dev'
 }
 
