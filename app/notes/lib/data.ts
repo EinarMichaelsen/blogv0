@@ -77,13 +77,12 @@ export const notes = [
       </ul>
       <p>After handling a few bugs (like OneHotEncoder errors on unknown categories), I added input sanitization to prevent NaNs or unsupported values from crashing the model.</p>
       <p>Once deployed on Hugging Face, I had a fully functional web interface.</p>
- <img src="/ml-training-chatgpt2.png" alt="now what" />
-      <p><i>giving chatGPT access to my terminal reduces the need for writing really good prompts. hence the "now what?"</i></p>
-     
+ 
   
       <p>i went back and forth on this for a while. i identified some clear errors in the model so i had to re-train it. i tested with more features and with less features. and found a sweet spot that worked well.</p>
       <p>i spent a lot of time sparring with chatGPT to test out different things and have chatGPT modify the training script and the eval script.</p>
-
+<img src="/ml-training-chatgpt2.png" alt="now what" />
+      <p><i>giving chatGPT access to my terminal reduces the need for writing really good prompts. hence the "now what?"</i></p>
 
       <h2><strong>Production API with Vercel</strong></h2>
       <p>To make this usable in production, I built a FastAPI wrapper and deployed it to <strong>Vercel</strong>. This API:</p>
