@@ -224,6 +224,13 @@
   display: block;
   background-color: white;
   padding: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.content-body img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .content-body img + p {
