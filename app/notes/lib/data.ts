@@ -4,17 +4,17 @@ export const notes = [
     title: "from csv to a machine learning api (a write up)",
     icon: "⚖️",
     date: "06/13/2025",
-    fullDate: "June 13, 2025 at 07:41 AM",
+    fullDate: "June 15, 2025 at 18:41 PM",
     preview:
       "how i built and deployed my first machine learning model for pricing of second hand clothing",
     pinned: true,
     content: `
-      <p>Over the past few days, I built and deployed my first machine learning model. 
+      <p>Over the past weekend, I built and deployed my first machine learning model. 
       A price predictor for secondhand apparel. 
       It’s now live, wrapped in an API, and ready to be used (once it’s well tested ofc). 
       <strong>This will allow us improve price prediction speed from seconds to milliseconds.</strong></p>
       
-      <p>This blog is a write-up of the process: what I built, why I built it, and the lessons learned from going from raw csv data to a production-grade ML product using Python, XGBoost, Gradio, Postman, Hugging Face and Vercel. </p>
+      <p>This blog is a write-up of the process: what I built, why I built it, and the lessons learned from going from raw csv data to a production-grade machine learning product using Python, XGBoost, Gradio, Postman, Hugging Face and Vercel. </p>
       <p>And of course chatGPT that I’ve given access to my Terminal and Textedit.</p>
   
       <h2><strong>The Problem</strong></h2>
@@ -54,7 +54,7 @@ export const notes = [
       <h2><strong>Evaluation and Feature Impact</strong></h2>
       <p>Using a separate script <code>evaluate_model.py</code></p>
       <ul>
-        <li>Calculated <strong>R²</strong>, <strong>MAE</strong>, <strong>RMSE</strong></li>
+        <li>Calculated <strong>R²</strong>, <strong>MAE</strong>, <strong>RMSE</strong> (i had to ask chatGPT to explain these to me)</li>
         <li>Plotted predicted vs. actual prices</li>
         <li>Verified that <strong>brand</strong> and <strong>category</strong> are the strongest signals <i>(which aligns with our experience at Cirkulær)</i></li>
         <li>Learned that including too many sparsely populated features hurt performance</li>
@@ -126,7 +126,7 @@ export const notes = [
       <p>i'm sure i've done some things wrong here, and i'm happy if anyone can point it out to me.</p>
 
 
-      <p>Thanks for reading. if you want to reach out, you will find me at <a href="https://einar.blog/">einar.blog</a></p>
+      <p>thanks for reading. if you want to connect, you can find me at <a href="https://einar.blog/">einar.blog</a></p>
     `,
   },
 ] 
