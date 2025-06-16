@@ -215,9 +215,22 @@
 }
 
 .content-body img {
-  max-width: 100%;
-  border-radius: 4px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
   margin: 16px 0;
+  border: 1px solid hsl(var(--sidebar-border));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+  background-color: white;
+  padding: 4px;
+}
+
+.content-body img + p {
+  margin-top: -8px;
+  margin-bottom: 24px;
+  color: hsl(var(--note-date));
+  font-size: 13px;
 }
 
 .content-body a {
