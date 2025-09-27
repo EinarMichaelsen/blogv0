@@ -9,10 +9,10 @@ const posts: Post[] = [
   {
     slug: "einar.blog",
     title: "hei i'm einar",
-    date: "2025-06-13",
+    date: "2025-09-27",
     content: `welcome to my blog
 
-i'm currently co-founder & ceo in <a href="https://getcircular.ai" target="_blank" rel="noopener noreferrer">circular</a>, an ai-powered resale platform
+i'm the founder & ceo in <a href="https://getcircular.ai" target="_blank" rel="noopener noreferrer">circular</a>, an ai-powered resale platform
 
 previously co-founded <a href="https://cirkulaer.love" target="_blank" rel="noopener noreferrer">cirkulær</a>, a second-hand chain with a yearly turnover of €1M (this is where the founder-problem-fit for circular originated from)
 
@@ -32,6 +32,40 @@ click the facetime icon to book a meeting
 connect and say hi👋🏼
 `
 ,
+  },
+  {
+    slug: "scope",
+    title: "speed: scope vs quality",
+    date: "2025-09-27",
+    content: `when facing deadlines, product teams<br />
+     often end up with two bad options:<br />
+
+1 Ship fast but compromise on quality.
+
+2 Build it "right" but miss the deadline.
+
+None of these should be selected. instead:
+
+<strong>cut scope</strong> aggressively
+
+dont lower the bar for quality.
+
+this is how:
+
+start with the full vision of your feature or product. then ask:<br />
+"what if we remove this? is the product still useful?"<br />
+keep cutting until the answer is "no".<br />
+then add back the last piece you removed.<br />
+
+what you're left with is the most scoped-down version of the product that still delivers value. 
+
+nothing more. nothing less.
+
+keeps quality high
+
+faster to market
+
+cheaper to be wrong`,
   },
   {
     slug: "circular-background",
@@ -88,16 +122,14 @@ in the team we have
 first-hand experience from the resale industry
 
 expertise in building own distribution and reach without spending wildly <br />
-Proof: 20K followers across SoMe (and Norway's most followed second hand store on LinkedIn) <br />
-a newsletter with 1,8K followers, a website with ~200K organic impressions on Google the last 16 months
+Proof: 40K followers across SoMe (and Norway's most followed second hand store on LinkedIn) <br />
+a newsletter with 1,8K followers
 
-Experience from growing a scale-up from 10 to 70 employees
+All employees are ex founders and have experience from building and scaling companies
 
-Experience from founding 5 companies
+We have experience from product, technology, AI & automation, retail, resale and marketplaces
 
-We have experience from management consulting, technology, AI & automation, retail, sustainability, innovation and strategy
-
-Corporate experience from companies such as EY, KPMG, Coop, IBM, Saint-Gobain, Sprint Consulting and Santander.
+Corporate experience from companies such as EY, KPMG, Coop, Saint-Gobain, Sprint Consulting and Santander.
 
 Together, we're a well-rounded team with high agency that can sell, build great products and attract top talent`,
   },
@@ -341,7 +373,19 @@ voila
 ]
 
 export async function getBlogPosts(): Promise<Post[]> {
-  return posts
+  // Keep the intro post at the top, then sort the rest by date (newest to oldest)
+  const introPost = posts.find(post => post.slug === "einar.blog")
+  const otherPosts = posts.filter(post => post.slug !== "einar.blog")
+  
+  // Sort other posts by date (newest first)
+  const sortedOtherPosts = otherPosts.sort((a, b) => {
+    const dateA = new Date(a.date)
+    const dateB = new Date(b.date)
+    return dateB.getTime() - dateA.getTime()
+  })
+  
+  // Return intro post first, then sorted posts
+  return introPost ? [introPost, ...sortedOtherPosts] : sortedOtherPosts
 }
 
 export async function getBlogPost(slug: string): Promise<Post> {
