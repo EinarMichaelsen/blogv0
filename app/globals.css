@@ -134,5 +134,9 @@ body {
     backdrop-filter: blur(40px) saturate(1.8);
     -webkit-backdrop-filter: blur(40px) saturate(1.8);
   }
+  .dynamic-island,
+  .fake-status-bar {
+    display: none !important;
+  }
 }
 

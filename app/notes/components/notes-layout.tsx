@@ -49,7 +49,7 @@ export default function NotesLayout() {
           <div className="pt-3 pb-1 flex justify-center">
             <div className="dynamic-island" />
           </div>
-          <div className="h-5 text-xs px-6 flex justify-between items-center text-gray-600">
+          <div className="fake-status-bar h-5 text-xs px-6 flex justify-between items-center text-gray-600">
             <span className="font-medium">13:37</span>
             <div className="flex items-center gap-1">
               <span>5G</span>

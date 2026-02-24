@@ -30,7 +30,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
               <div className="dynamic-island" />
             </div>
             {/* Status bar */}
-            <div className="h-5 text-xs px-6 flex justify-between items-center text-gray-600">
+            <div className="fake-status-bar h-5 text-xs px-6 flex justify-between items-center text-gray-600">
               <span className="font-medium">13:37</span>
               <div className="flex items-center gap-1">
                 <span>5G</span>
