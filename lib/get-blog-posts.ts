@@ -344,6 +344,80 @@ Read it here <a href="https://einar.blog/notes/">einar.blog/notes</a>
 `,
   },
   {
+    slug: "the-curious-compound",
+    title: "the curious compound",
+    date: "2025-12-10",
+    content: `why the curious are compounding while others wait
+
+the people at the very front of AI - the ones building with it every day, shipping products, automating entire workflows - feel like they're falling behind
+
+they have FOMO. they're anxious about what they're missing. they stay up late experimenting because they know what's coming
+
+meanwhile, large enterprises and the late majority are still debating whether to try ChatGPT or Copilot to write emails faster
+
+the gap is already here. and in 2026, it will widen
+
+AI has an exponential learning curve. every hour you spend with it makes the next hour more valuable. you learn what to ask. how to ask. what it can do. you start seeing applications everywhere
+
+the tooling sounds fancy: "data ingestion," "agents," "agentic workflows." but strip away the jargon and it's just automation. you learn it the same way you learned Salesforce or PowerPoint: by using it
+
+the curious compound. the waiters fall exponentially behind
+
+you don't need to be technical. you just need to use the tools. that's the advantage
+
+the curious learn something important: you can just do things
+
+you don't need permission. you don't need to be an expert. you don't need to understand how transformers work. you just need to start, keep going, and learn by doing
+
+that's the whole secret. the people at the front aren't smarter. they just started and never stopped
+
+if you have AI content saved in your bookmarks that you haven't watched or read, that's a symptom. you're waiting when you should be doing
+
+stop reading this. open Claude. open ChatGPT. open v0. build something you've been thinking about
+
+it doesn't matter if it's small. it matters that you start
+
+automate something you do every week. something you find boring. something that will make you more efficient
+
+the best time to start was yesterday. the second best time to start is now
+
+the curious are already compounding`
+  },
+  {
+    slug: "resale-2026",
+    title: "resale 2026",
+    date: "2025-12-16",
+    content: `from thrift to retail's operating system
+
+everyone talks about the resale boom. consumer demand is real. sustainability is mainstream. the market is worth $265 billion and growing at 12% CAGR
+
+the real bottleneck is the quality of supply feeding it
+
+high-quality secondhand inventory exists. it's sitting in thousands of independent resale stores. offline. disconnected from the platforms that need it
+
+i saw this firsthand building <a href="https://cirkulaer.love" target="_blank" rel="noopener noreferrer">Cirkulær</a>, our consignment resale chain. the product was there. the demand was there. but there was no system to surface and distribute quality supply at scale
+
+marketplaces have been the industry's go-to solution. they connect sellers and buyers, handle discovery and transactions. but without quality infrastructure underneath, premium secondhand goods stay inaccessible
+
+what resale needs is an operating system for professional resale
+
+digitize inventory from offline resellers
+
+apply consistent quality and condition standards
+
+connect fragmented supply into unified distribution networks
+
+better supply leads to better marketplaces
+
+the long-term vision: marketplaces powered by professionals, built on quality-assured inventory where buying secondhand feels like buying something new
+
+that's what makes secondhand shopping a default consumer behavior. not just a sustainable choice, but a better one
+
+that's exactly what we're building with <a href="https://getcircular.ai" target="_blank" rel="noopener noreferrer">Circular</a>
+
+the operating system for professional resale`
+  },
+  {
     slug: "vibe-coding",
     title: "vibe coding",
     date: "2025-02-25",

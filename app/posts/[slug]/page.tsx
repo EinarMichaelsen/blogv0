@@ -1,5 +1,4 @@
 import BlogLayout from "../../../components/blog-layout"
-import Sidebar from "../../../components/sidebar"
 import { getBlogPosts, getBlogPost } from "../../../lib/get-blog-posts"
 import { ChevronLeft, Video, Camera, AppWindow, Mic } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -22,13 +21,17 @@ export default async function Post({ params }: { params: { slug: string } }) {
 
   return (
     <BlogLayout>
-      <div className="flex flex-col md:flex-row h-screen w-full">
-        <main className="flex-1 bg-white flex flex-col h-screen w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
+      <div className="flex flex-col h-full w-full">
+        <main className="flex-1 flex flex-col h-full w-full overflow-hidden">
           {/* iPhone-style header */}
-          <div className="bg-gray-100/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-10">
+          <div className="glass-header sticky top-0 z-10">
+            {/* Dynamic Island */}
+            <div className="pt-3 pb-1 flex justify-center">
+              <div className="dynamic-island" />
+            </div>
             {/* Status bar */}
-            <div className="h-6 text-xs px-4 flex justify-between items-center">
-              <span>13:37</span>
+            <div className="h-5 text-xs px-6 flex justify-between items-center text-gray-600">
+              <span className="font-medium">13:37</span>
               <div className="flex items-center gap-1">
                 <span>5G</span>
                 <span>96%</span>
@@ -36,13 +39,13 @@ export default async function Post({ params }: { params: { slug: string } }) {
             </div>
 
             {/* Navigation header */}
-            <div className="flex items-center px-4 h-11">
+            <div className="flex items-center px-4 h-11 pb-2">
               <Link href="/" className="flex items-center text-[#0B84FF]">
                 <ChevronLeft className="h-5 w-5" />
                 <span>Back</span>
               </Link>
               <div className="flex-1 flex justify-center items-center gap-2">
-                <Link 
+                <Link
                   href="https://www.linkedin.com/in/einar-michaelsen/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -54,8 +57,8 @@ export default async function Post({ params }: { params: { slug: string } }) {
                 </Link>
                 <span className="font-semibold">einar</span>
               </div>
-              <Link 
-                href="https://cal.com/einar-michaelsen" 
+              <Link
+                href="https://cal.com/einar-michaelsen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#0B84FF]"
@@ -72,7 +75,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
             <div className="space-y-2">
               {/* Title as received message */}
               <div className="flex justify-start">
-                <div className="bg-[#E9E9EB] text-black px-4 py-[6px] rounded-[20px] rounded-bl-[4px] max-w-[70%] leading-5">
+                <div className="glass-bubble-received text-black px-4 py-[6px] rounded-[20px] rounded-bl-[4px] max-w-[75%] leading-5">
                   <p className="font-medium">{post.title}</p>
                 </div>
               </div>
@@ -83,10 +86,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
                   paragraph && (
                     <div key={index} className="flex justify-end group">
                       <div
-                        className="relative bg-[#0B84FF] text-white px-4 py-[6px] rounded-[20px] rounded-br-[4px] max-w-[70%] leading-5"
-                        style={{
-                          filter: "drop-shadow(0 1px 1px rgba(0,0,0,0.05))",
-                        }}
+                        className="relative glass-bubble-sent text-white px-4 py-[6px] rounded-[20px] rounded-br-[4px] max-w-[75%] leading-5"
                       >
                         <p dangerouslySetInnerHTML={createMarkup(paragraph)} className="[&_a]:underline [&_a]:text-white" />
                       </div>
@@ -99,9 +99,9 @@ export default async function Post({ params }: { params: { slug: string } }) {
           </div>
 
           {/* Message input area */}
-          <div className="p-4 bg-gray-100/80 backdrop-blur-md border-t border-gray-200">
+          <div className="glass-footer p-4">
             <div className="flex items-center gap-2">
-              <Link 
+              <Link
                 href="https://www.instagram.com/einarm90"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -109,7 +109,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
               >
                 <Camera className="h-6 w-6" />
               </Link>
-              <Link 
+              <Link
                 href="https://getcircular.ai"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -117,7 +117,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
               >
                 <AppWindow className="h-6 w-6" />
               </Link>
-              <div className="flex-1 bg-white rounded-full px-4 py-2 text-gray-400 border border-gray-200">iMessage</div>
+              <div className="flex-1 glass-input rounded-full px-4 py-2 text-gray-400">iMessage</div>
               <button className="text-[#0B84FF]">
                 <Mic className="h-6 w-6" />
               </button>
