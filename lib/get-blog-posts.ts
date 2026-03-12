@@ -12,7 +12,7 @@ const posts: Post[] = [
     date: "2025-09-27",
     content: `welcome to my blog
 
-i'm the founder & ceo in <a href="https://getcircular.ai" target="_blank" rel="noopener noreferrer">circular</a>, an ai-powered resale platform
+i'm the founder & ceo of <a href="https://getcircular.ai" target="_blank" rel="noopener noreferrer">circular resale</a> - the ai-native operating system for resale
 
 previously co-founded <a href="https://cirkulaer.love" target="_blank" rel="noopener noreferrer">cirkulær</a>, a second-hand chain with a yearly turnover of €1M (this is where the founder-problem-fit for circular originated from)
 
